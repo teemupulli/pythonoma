@@ -1,0 +1,8 @@
+print("Mikä on suorakulmion kanta?")
+kanta = input()
+print("Mikä on suorakulmion korkeus?")
+korkeus = input()
+print("Suorakulmion piiri on: ")
+print(int(kanta) * 2 + int(korkeus) * 2)
+print("Suorakulmion pinta-ala on: ")
+print(int(kanta) * int(korkeus))

@@ -1,0 +1,10 @@
+print("Syötä ensimmäinen luku")
+eka = int(input())
+print("Syötä toinen luku")
+toka = int(input())
+print("Syötä kolmas luku")
+kolmas = int(input())
+
+print("Summa = " + str(eka + toka + kolmas))
+print("Tulo = " + str(eka * toka * kolmas))
+print("Keskiarvo = " + str((eka + toka + kolmas) / 3))
